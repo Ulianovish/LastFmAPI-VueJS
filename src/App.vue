@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <img src="https://ulianovish.github.io/LastFmAPI-VueJS/assets/logo.png">
+    <img src="./assets/logo.png">
     <h1>LastFM API VueJS 2.0</h1>
     <select v-model="selectedCountry">
       <option v-for="country in countries" :value="country.value"> {{ country.name }}</option>
     </select>
-    <spinner v-s
-    how="loading"></spinner>
+    <spinner v-show="loading"></spinner>
     <ul>
       <artist v-for="artist in artists" v-bind:artist="artist" v-bind:key="artist.mbid"></artist>
     </ul>
