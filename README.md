@@ -1,6 +1,5 @@
-# rickmorty
+# lastFM Api VueJS
 
-> proyecto para servir mp4 en mpeg-dash
 
 ## Build Setup
 
