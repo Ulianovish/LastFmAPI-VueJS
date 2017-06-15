@@ -16,7 +16,11 @@ export default {
 
 <style scoped>
 li {
-	display: block;
-	margin: 10px 0;
+    display: inline-block;
+    margin: 10px;
+    background: darkslategrey;
+    padding: 10px;
+    border: 3px solid darkseagreen;
+    border-radius: 10px;
 }
 </style>
